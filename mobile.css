@@ -1,0 +1,201 @@
+@media screen and (min-width: 250px) and (max-width:573px) {
+    /*********** Common css style code start  ************/
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*********** Common css style code end  ************/
+
+/*********** Header Area style code start  ************/
+
+#header{
+    width: 100%;
+    height: 64px;
+    padding: 0px 10px;
+}
+
+.bar-icon-container{
+    display: block;
+}
+.navigation{
+    display: none;
+}
+
+/*********** Header Area style code end  ************/
+
+/*********** Banner Section style code start  ************/
+
+#banner-section{
+    width: 100%;
+    padding: 0px 10px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background-image: url('.');
+    flex-direction: column-reverse;
+}
+.left-banner-container{
+    max-width: 100%;
+    height:auto;
+    margin-top: 60px;
+    margin-left:0px;
+}
+
+.right-banner-container{
+    max-width: 100%;
+    height: auto;
+    margin-right: 0px;
+}
+
+/*********** Banner Section style code end  ************/
+
+/*********** Info card Section style code start  ************/
+#info-card-section{
+    flex-direction: column;
+    margin: 0px 10px;
+    margin-top:0px;
+    gap: 30px;
+
+}
+.info-card{
+    flex: 1;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info-card-img-container{
+    text-align: center;
+    width: 100%;
+}
+
+/*********** Info card Section style code end  ************/
+
+/*********** Our Service section style code start  ************/
+#our-service-section{
+    width:100%;
+    height:auto;
+    margin: 80px 0px;
+}
+.our-service-heading-container{
+    text-align: center;
+    padding: 0px 10px;
+}
+.service-card-container{
+    padding: 0px 10px;
+    flex-direction: column;
+    gap: 56px;
+    margin-top: 34px;
+}
+.service-card{
+    height:auto;
+    width: 100%;
+}
+
+.exceptional-container{
+    padding: 0px 10px;
+    margin-top: 60px;
+    flex-direction: column;
+}
+.left-exceptional{
+    width:100%;
+}
+.left-exceptional img{
+    width: 95%;
+}
+.right-exceptional{
+    margin-top: 37px;
+    width: 100%;
+}
+.right-exceptional p{
+    width: 95%;
+    margin-top: 26px;
+}
+/*********** Our Service section style code end  ************/
+
+/*********** Appoinment section start  ************/
+#appoinment-section{
+    width: 100%;
+    height:533px;
+    margin-bottom: 80px;
+}
+.appoinment-container{
+    width: 100%;
+    padding: 0px 10px;
+    background-position:left;
+    height: 100%;
+}
+.left-appoinment{
+    display: none;
+}
+.right-appoinment{
+    width: 100%;
+}
+
+/*********** Appoinment section end  ************/
+/*********** Testimonial section start  ************/
+#testimonial-section{
+    width: 100%;
+    height: auto;
+    padding: 0px 10px;
+    background-size: 96px;
+    margin-bottom: 130px;
+}
+.testimonial-card-container{
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 75px;
+}
+
+/*********** Testimonial section end  ************/
+/*********** Contact section start  ************/
+#contact-section{
+    width: 100%;
+    height: 604px;
+    padding: 0px 10px;
+}
+.contact-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.form-input{
+    display: block;
+    /* width: 95%; */
+    padding: 15px;
+    border-radius:8px;
+    border: none;
+    margin-bottom: 19px;
+}
+textarea{
+    /* width: 95%; */
+    height: 136px;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    resize: vertical;
+}
+form > button{
+    padding: 15px 30px !important;
+}
+/*********** Contact section end  ************/
+/*********** Footer start  ************/
+#footer{
+    width: 100%;
+    height: auto;
+    background-position: left;
+}
+.footer-uper-container{
+    padding: 60px 10px;
+    flex-direction: column;
+    gap: 80px;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*********** Footer end  ************/
+}

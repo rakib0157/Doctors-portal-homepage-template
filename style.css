@@ -1,0 +1,347 @@
+/*********** Common css style code start  ************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+:root {
+    --first-color: #3a4256;
+    --second-color: #19d3ae;
+    --third-color: #0fcfec; 
+    --font-size: 16px;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.fw-four{
+    font-weight: 400;
+}
+.fw-seven{
+    font-weight: 700;
+}
+.fw-six{
+    font-weight: 600;
+}
+.common-get-btn{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    margin-top: 40px;
+}
+.common-heading-one{
+    font-size: 20px;
+    color: var(--second-color);
+}
+.common-heading-two{
+    font-size: 36px;
+    color: var(--first-color);
+}
+.common-heading-three{
+    font-size: 36px;
+    color: #FFF;
+    margin: 22px 0px;
+    
+}
+/*********** Common css style code end  ************/
+
+/*********** Header Area style code start  ************/
+
+#header{
+    width: 100%;
+    height: 64px;
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-heading{
+    font-size: 18px;
+    color: #000000;
+}
+.bar-icon-container{
+    display: none;
+}
+.navigation > ul{
+    display: flex;
+    gap:30px;
+    
+}
+.navigation > ul > li >a{
+    font-size: 16px;
+    color: #000000;
+}
+.select-menu-btn{
+    background-color: var(--first-color);
+    border-radius: 8px;
+    padding: 11px;
+    color: #D4D9E3 !important;
+}
+/*********** Header Area style code end  ************/
+
+/*********** Banner Section style code start  ************/
+
+#banner-section{
+    max-width: 1363px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url('./images/Bannerbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-banner-container{
+    max-width: 655px;
+    height: 266px;
+    margin-left: 30px;
+}
+.banner-heading{
+    color: var(--first-color);
+    font-size: 48px;
+}
+.banner-para{
+    font-size: 16px;
+    color: var(--first-color);  
+}
+.right-banner-container{
+    max-width: 594px;
+    height: 355px;
+    margin-right: 38px;
+}
+.right-banner-container img{
+    width: 100%;
+    height: 100%;
+}
+/*********** Banner Section style code end  ************/
+
+/*********** Info card Section style code start  ************/
+#info-card-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 21px;
+    margin-top: -5px;
+    gap: 24px;
+
+}
+.info-card{
+    /* max-width: 450px; */
+    flex: 1;
+    height: 190px;
+    border-radius: 14px;
+    background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+    color: #ffffff;
+    padding: 50px 25px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.info-card-select{
+    background: var(--first-color) !important;
+}
+.info-card-title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+/*********** Info card Section style code end  ************/
+
+/*********** Our Service section style code start  ************/
+#our-service-section{
+    max-width: 1388px;
+    height: 1193px;
+    margin: 150px 21px;
+}
+.our-service-heading-container{
+    text-align: center;
+}
+.service-card-container{
+    display: flex;
+    gap: 34px;
+    margin-top: 70px;
+}
+.service-card{
+    flex:1;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    padding: 44px;
+    height:310px;
+    text-align: center;
+}
+.service-card-title{
+    font-size: 20px;
+    color: var(--first-color);
+    margin: 20px 0px;
+}
+.service-card-p{
+   font-size: 16px; 
+}
+.exceptional-container{
+    margin-top: 154px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-exceptional{
+    width: 458px;
+}
+.left-exceptional img{
+    width: 100%;
+}
+.right-exceptional{
+    width: 497px;
+}
+.right-exceptional p{
+    margin-top: 26px;
+}
+/*********** Our Service section style code end  ************/
+/*********** Appoinment section start  ************/
+#appoinment-section{
+    width: 100%;
+    height: 636px;
+    position: relative;
+    margin-bottom: 108px;
+}
+.appoinment-container{
+    width: 100%;
+    height: 533px;
+    padding: 0px 80px;
+    position: absolute;
+    bottom:0;
+    background-image: url(./images/appoinmentbanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-appoinment{
+    width: 606px;
+    height: 100%;
+}
+.left-appoinment img{
+    position: absolute;
+    bottom: 0;
+}
+.right-appoinment{
+    width: 533px;
+}
+.right-appoinment p{
+    color: #ffffff;
+}
+/*********** Appoinment section end  ************/
+/*********** Testimonial section start  ************/
+#testimonial-section{
+    max-width: 1333px;
+    height: 514px;
+    margin: 0 auto;
+    padding: 0px 21px;
+    margin-bottom: 140px;
+    background-image: url(./images/coma.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.testimonial-card-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 146px;
+
+}
+.testimonial-card{
+    padding: 30px;
+    height: 270px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+}
+.testimonial-card-details{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.testimonial-card-details img{
+    border: 3px solid var(--second-color);
+    border-radius: 50%;
+    padding: 2px;
+}
+.patient-name{
+    font-size: 20px;
+    color: var(--first-color);
+}
+/*********** Testimonial section end  ************/
+/*********** Contact section start  ************/
+#contact-section{
+    width: 100%;
+    height: 604px;
+    background-image: url(./images/cbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container{
+    width: 450px;
+    height: 468px;
+    text-align: center;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius:8px;
+    border: none;
+    margin-bottom: 19px;
+}
+textarea{
+    width: 100%;
+    height: 136px;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    resize: vertical;
+}
+form > button{
+    padding: 15px 30px !important;
+}
+/*********** Contact section end  ************/
+/*********** Footer start  ************/
+#footer{
+    width: 100%;
+    height: 407px;
+    background-image: url(./images/footerbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-uper-container{
+    padding: 70px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-heading{
+    font-size: 18px;
+    color: #939393;
+    margin-bottom: 19px;
+}
+.footer-menu-ul > li{
+    margin-bottom: 14px;
+}
+.footer-menu-ul > li > a{
+    color: var(--first-color);
+}
+.copyright{
+    text-align: center;
+}
+/*********** Footer end  ************/
